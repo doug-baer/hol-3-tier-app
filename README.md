@@ -20,8 +20,9 @@ This demonstration application has been created so that each component VM is ind
 
 I put SSL in here because it is always a good idea to secure your web traffic, and it provides the opportunity to configure a load balancer in front of the web tier in a more realistic scenario.
 
-The v1 version looks like this
-http://blogs.vmware.com/hol/files/2017/01/3-Tier-App-IPs.gif
-
 ## 2020 UPDATE COMING SOON ##
-(Note that the new version moves the db-01a from port 80 to port 3306)
+All built using Photon3-Rev2-OVA: photon-hw11-3.0-9355405.ova 
+_web-01a_ - web server, static IP:192.168.120.30, access via https://web-01a/cgi-bin/app.py
+_app-01a_ - app server, static IP:192.168.120.20, access via https://app-01a:8443/cgi-bin/app.py
+_db-01a_  - database server, static IP:192.168.120.10, access (raw dump) via http://db-01a:3306/cgi-bin/data.py
+
