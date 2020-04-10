@@ -20,4 +20,8 @@ This demonstration application has been created so that each component VM is ind
 
 I put SSL in here because it is always a good idea to secure your web traffic, and it provides the opportunity to configure a load balancer in front of the web tier in a more realistic scenario.
 
+The v1 version looks like this
+http://blogs.vmware.com/hol/files/2017/01/3-Tier-App-IPs.gif
+
 ## 2020 UPDATE COMING SOON ##
+(Note that the new version moves the db-01a from port 80 to port 3306)
