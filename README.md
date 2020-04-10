@@ -22,7 +22,7 @@ I put SSL in here because it is always a good idea to secure your web traffic, a
 
 ## 2020 UPDATE COMING SOON ##
 All built using Photon3-Rev2-OVA: photon-hw11-3.0-9355405.ova 
-_web-01a_ - web server, static IP:192.168.120.30, access via https://web-01a/cgi-bin/app.py
-_app-01a_ - app server, static IP:192.168.120.20, access via https://app-01a:8443/cgi-bin/app.py
-_db-01a_  - database server, static IP:192.168.120.10, access (raw dump) via http://db-01a:3306/cgi-bin/data.py
+* _web-01a_ - web server, static IP:192.168.120.30, access via https://web-01a/cgi-bin/app.py
+* _app-01a_ - app server, static IP:192.168.120.20, access via https://app-01a:8443/cgi-bin/app.py
+* _db-01a_  - database server, static IP:192.168.120.10, access (raw dump) via http://db-01a:3306/cgi-bin/data.py
 
