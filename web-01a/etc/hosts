@@ -1,0 +1,10 @@
+# Begin /etc/hosts (network card version)
+
+::1         ipv6-localhost ipv6-loopback
+127.0.0.1   localhost.localdomain
+127.0.0.1   localhost
+127.0.0.1   web-01a
+# End /etc/hosts (network card version)
+192.168.120.10 db-01a.corp.local  db-01a
+192.168.120.20 app-01a.corp.local app-01a
+192.168.120.30 web-01a.corp.local web-01a
